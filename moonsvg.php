@@ -1,12 +1,11 @@
 <?php
 
-// Moon Drawer v1.0 (Tue Aug 25 19:06:51 UTC 2015)
+// Moon SVG Drawer v1.0 (Wed Sep 23 17:44:45 EDT 2015)
 // This function returns a string containing HTML code for svg of the current moon phase.
 // The returned HTML element SVG has id "moon-svg" and is contained in a DIV with id "moon-container".
 // - $illumination is a percentage value between 0 and 100.
 // - $waxing is a boolean: waxing phase = true, waning phase = false.
 // - $precision can be adjusted, however a value higher than 2 has no effect when rendered.
-
 function moonsvg( $illumination = 100, $waxing = true, $fill = "black", $precision = 2 ) {
 
 	$output = "";

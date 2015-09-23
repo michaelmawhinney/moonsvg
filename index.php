@@ -9,9 +9,9 @@
 <style>
 
 body {
-	background: black;
-	color: white;
-	font-family: "Open Sans", sans-serif;
+    background: black;
+    color: white;
+    font-family: "Open Sans", sans-serif;
 }
 
 .moon-container {
@@ -35,7 +35,6 @@ $fill = "white";
 $precision = 2;
 
 echo "<h2>$illum% illuminated</h2>\n";
-
 echo moonsvg($illum, $waxing, $fill, $precision);
 
 ?>
